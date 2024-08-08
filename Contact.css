@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #5b7bdb, #8b59b9);
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-content {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    flex: 1;
+    padding: 40px;
+    border-right: 1px solid #ddd;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #4a148c;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4a148c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3e0d76;
+}
+
+a {
+    color: hsl(267, 75%, 31%);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    text-decoration: none;
+    border: 1px solid hsl(267, 75%, 31%);
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px; /* Updated horizontal margin */
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons a i {
+    font-size: 20px;
+    transition: font-size 0.3s;
+    color: #530a75;
+}
+
+.social-icons a:hover i {
+    color: #c7a0f3;
+    font-size: 25px;
+}

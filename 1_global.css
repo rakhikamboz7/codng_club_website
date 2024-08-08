@@ -1,0 +1,96 @@
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-jost: Jost;
+  --font-josefin-slab: "Josefin Slab";
+
+  /* font sizes */
+  --font-size-2xs: 0.786rem;
+  --font-size-xs: 0.857rem;
+  --font-size-xl: 1.429rem;
+  --font-size-base: 1.143rem;
+  --font-size-smi: 0.929rem;
+  --font-size-5xl: 1.714rem;
+  --font-size-lgi: 1.357rem;
+  --font-size-sm: 1rem;
+  --font-size-13xl: 2.286rem;
+  --font-size-3xs: 0.714rem;
+  --font-size-mini: 1.071rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkblue-100: rgba(69, 1, 154, 0.66);
+  --color-snow-100: #fffbfb;
+  --color-snow-200: #fef6f6;
+  --color-darkslateblue-100: #4746447df;
+  --color-black: #000;
+  --color-limegreen: rgba(52, 68, 217, 0.93);
+  --color-firebrick-100: rgba(194, 11, 11, 0.85);
+  --color-firebrick-200: rgba(186, 30, 20, 0.93);
+  --color-mediumvioletred: rgba(186, 20, 99, 0.93);
+  --color-cornflowerblue: rgba(105, 156, 252, 0.58);
+  --color-gray-100: #161515;
+  --color-gray-200: rgba(8, 11, 24, 0.82);
+
+  /* Gaps */
+  --gap-14xl: 2.357rem;
+  --gap-8xs: 0.357rem;
+  --gap-xl: 1.429rem;
+  --gap-4xs: 0.643rem;
+  --gap-6xs: 0.5rem;
+  --gap-xs: 0.857rem;
+
+  /* Paddings */
+  --padding-11xs: 0.143rem;
+  --padding-6xl: 1.786rem;
+  --padding-base: 1.143rem;
+  --padding-xl: 1.429rem;
+  --padding-3xl: 1.571rem;
+  --padding-57xl: 5.429rem;
+  --padding-6xs: 0.5rem;
+  --padding-7xs: 0.429rem;
+  --padding-4xs: 0.643rem;
+  --padding-mini: 1.071rem;
+  --padding-10xs: 0.214rem;
+  --padding-30xl: 3.5rem;
+  --padding-3xs: 0.714rem;
+  --padding-9xs: 0.286rem;
+  --padding-12xs: 0.071rem;
+  --padding-4xl: 1.643rem;
+  --padding-25xl: 3.143rem;
+  --padding-10xl: 2.071rem;
+  --padding-2xs: 0.786rem;
+  --padding-mid: 1.214rem;
+  --padding-5xl: 1.714rem;
+  --padding-8xs: 0.357rem;
+  --padding-smi: 0.929rem;
+  --padding-sm: 1rem;
+  --padding-13xl: 2.286rem;
+  --padding-12xl: 2.214rem;
+  --padding-26xl: 3.214rem;
+  --padding-8xl: 1.929rem;
+  --padding-51xl: 5rem;
+  --padding-16xl: 2.5rem;
+  --padding-lg: 1.286rem;
+  --padding-9xl: 2rem;
+
+  /* Border radiuses */
+  --br-6xl: 25px;
+  --br-mini: 15px;
+  --br-xl: 20px;
+  --br-11xl: 30px;
+  --br-3xs: 10px;
+  --br-481xl: 500px;
+  --br-15xl: 34px;
+}
+
+
+  
